@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Page 2: Form</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<link rel="stylesheet" href="styling.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		  <a class="navbar-brand" href="index.html">
+			  <img id="logo" src="lol.jpg" alt="">
+			  Stats Page
+		  </a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+			<div class="navbar-nav">
+			  <a class="nav-item nav-link" href="index.html">Home </a>
+			  <a class="nav-item nav-link" href="page1.html">Stats</a>
+			  <a class="nav-item nav-link active" href="#">Form<span class="sr-only">(current)</span></a>
+			  <a class="nav-item nav-link" href="page3.html">Page 3</a>
+			</div>
+		  </div>
+		</nav>
+
+	</head>
+	<body>
+		<form>
+			<div class="row justify-content-center">
+				<div class="col-lg-6 col-sm-12">
+					<div class="form-group">
+						<label for="exampleInputEmail">Email Address</label>
+						<input type="email" class="form-control" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Enter email">
+						<small id="emailHelp" class="form-text text-muted">We will never share your email address.</small>
+					</div>
+					<div class="form-group">
+						<label for="IGN">IGN</label>
+						<input type="text" class="form-control" id="IGN" aria-describedby="IGN" placeholder="In game name">
+					</div>
+					<div class="form-group">
+						<label for="selectedRegion">Region</label>
+						<select class="custom-select" id="selectedRegion">
+							<option selected>Choose your region</option>
+							<option value="1">NA</option>
+							<option value="2">EUW</option>
+							<option value="3">KR</option>
+						</select>
+					</div>
+					<button type="submit" class"btn btn-primary">Submit</button>
+				</div>
+			</div>
+		</form>
+	</body>
+</html>
